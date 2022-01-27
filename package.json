@@ -1,0 +1,41 @@
+{
+  "name": "obsidian-enmeti",
+  "displayName": "Obsidian Enmeti",
+  "version": "0.0.1",
+  "description": "An Obsidian plugin that helps to insert and manage links/images in files.",
+  "main": "index.js",
+  "scripts": {
+    "pretty": "pretty-quick",
+    "dev": "esbuild main.ts --bundle --external:obsidian --outdir=.  --target=es2016 --format=cjs --sourcemap=inline --watch",
+    "build": "esbuild main.ts --bundle --external:obsidian --outdir=.  --target=es2016 --format=cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4lch4/Obsidian-Enmeti.git"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidian-md",
+    "obsidianmd",
+    "obsidian-plugin"
+  ],
+  "author": {
+    "name": "4lch4",
+    "email": "hey@4lch4.email",
+    "url": "https://alcha.org"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/4lch4/Obsidian-Enmeti/issues",
+    "email": "bugs@4lch4.email"
+  },
+  "homepage": "https://github.com/4lch4/Obsidian-Enmeti#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "esbuild": "^0.14.14",
+    "obsidian": "^0.13.21",
+    "pretty-quick": "^3.1.3",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.5"
+  }
+}

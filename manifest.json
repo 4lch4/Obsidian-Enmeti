@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-enmeti",
+	"name": "Enmeti",
+	"version": "0.0.1",
+	"minAppVersion": "0.12.0",
+	"description": "An Obsidian plugin that helps to insert and manage links/images in files.",
+	"author": "4lch4",
+	"authorUrl": "https://gh.4lch4.dev",
+	"isDesktopOnly": false
+}
