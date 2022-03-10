@@ -358,10 +358,10 @@ npm-run-path@^4.0.0:
   dependencies:
     path-key "^3.0.0"
 
-obsidian@^0.13.21:
-  version "0.13.21"
-  resolved "https://registry.yarnpkg.com/obsidian/-/obsidian-0.13.21.tgz#1add830d8452270c608d5f5b25f75c3237af9677"
-  integrity sha512-ifrX4TclHZMlxRQt6mMYolucw3yy6VEbm/l/tl/BNTBT5uTHruP+k39DQ4wqPSeQApkR6VKlx/pY/DnSxqLOXw==
+obsidian@^0.13.30:
+  version "0.13.30"
+  resolved "https://registry.yarnpkg.com/obsidian/-/obsidian-0.13.30.tgz#215697376c5c0059d7661df400440d97224d3f95"
+  integrity sha512-uAOrIyeHE9qYzg1Qjfpy/qlyLUFX9oyKWeHYO8NVDoI+pm5VUTMe7XWcsXPwb9iVsVmggVJcdV15Vqm9bljhxQ==
   dependencies:
     "@codemirror/state" "^0.19.6"
     "@codemirror/view" "^0.19.31"
