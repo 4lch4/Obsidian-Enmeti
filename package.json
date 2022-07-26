@@ -32,7 +32,7 @@
   "homepage": "https://github.com/4lch4/Obsidian-Enmeti#readme",
   "devDependencies": {
     "@types/node": "^17.0.12",
-    "esbuild": "^0.14.14",
+    "esbuild": "^0.14.50",
     "obsidian": "^0.13.21",
     "pretty-quick": "^3.1.3",
     "tslib": "^2.3.1",
